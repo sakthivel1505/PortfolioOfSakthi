@@ -1,0 +1,170 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #ECE9E5;
+    display: flex;
+    position: sticky;
+    top:0px;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 10px 5px;
+}
+.na{
+    margin: 10px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:black ;
+    color: white;
+}
+#head1{
+    width: 99vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C6C2CD;
+   
+    
+}
+#profile{
+    border-radius: 25%; 
+}
+
+main{
+    width: 100vw;
+}
+#Education{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: #ECE9E5;
+}
+#asi{
+    
+    width: 50%;
+    height: 100%;
+    padding-right: 0px;
+}
+.photo{
+    padding-right: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+#edu{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.hard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    
+}
+.skill{
+    height: 100px;
+}
+.Skills{ 
+    height: 150px;
+    width: 150px;
+    border: solid;
+    box-shadow: 10px 10px 15px #DEDBD9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+#skl{
+    background-color:#1E2130 ;
+    color: #DEDBD9;
+}
+#project{
+    background-color: #ECE9E5;
+    display: flex;
+    justify-content: space-around;
+}
+.pro{
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-radius: 20%;
+    background-color: #C1B580;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.pro:hover{
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+.ph{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.pp{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+#cer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #C6C2CD;
+}
+#jlp{
+    width: 50%;
+}
+#jl{
+    height: 500px;
+    margin-left: 15%;
+}
+#cercap{
+    /* align-self: center; */
+    margin-top: 10%;
+}
+ul{
+    font-size: 20px;
+}
+ul li:first-child{
+    list-style-image: url(images/LinkedIn.jpg);
+}
+ul li:nth-child(2){
+    list-style-image: url(images/email.jpg) ;
+}
+ul li:nth-child(3){
+    list-style-image: url(images/instagram.jpg);
+}
+footer{
+    background-color:#1E2130;
+    color: #DEDBD9;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
