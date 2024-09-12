@@ -16,8 +16,9 @@ nav{
     top:0px;
     justify-content: space-between;
     align-items:center;
+    flex-wrap: wrap;
     border-bottom: 1px solid black;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 3px 3px 5px;
 }
 .na{
     margin: 10px;
@@ -29,8 +30,9 @@ nav{
 }
 #head1{
     width: 99vw;
-    height: 500px;
+    height: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
@@ -49,16 +51,17 @@ main{
     width: 100%;
     height: 800px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #ECE9E5;
+    margin: 0px;
 }
 #asi{
-    
+    margin: 0px;
     width: 50%;
-    height: 100%;
-    padding-right: 0px;
+    height: 800px;
 }
 .photo{
-    padding-right: 0px;
     width: 100%;
     height: 100%;
     
@@ -94,6 +97,7 @@ main{
 #project{
     background-color: #ECE9E5;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .pro{
@@ -132,21 +136,22 @@ main{
     font-size: 18px;
 }
 #cer{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
     background-color: #C6C2CD;
-}
-#jlp{
-    width: 50%;
 }
 #jl{
     height: 500px;
-    margin-left: 15%;
 }
 #cercap{
     /* align-self: center; */
+    height: 300px;
     margin-top: 10%;
+    margin-left: 10% ;
 }
 ul{
     font-size: 20px;
@@ -165,6 +170,7 @@ footer{
     color: #DEDBD9;
     height: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
